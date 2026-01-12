@@ -78,19 +78,6 @@ XGBoost와 앙상블 기법을 활용한 K리그 경기 결과 예측 모델 개
 
 ---
 
-## 📊 GitHub 통계
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KR-LSB&show_icons=true&theme=tokyonight&hide_border=true&locale=kr" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KR-LSB&theme=tokyonight&hide_border=true&locale=ko" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KR-LSB&layout=compact&theme=tokyonight&hide_border=true&locale=kr" width="40%" />
-</p>
-
----
-
 ## 📜 자격증
 
 | 자격증 | 발급기관 |
