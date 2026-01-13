@@ -41,7 +41,7 @@
 
 ## 🚀 주요 프로젝트
 
-### 🏥 [SNUBH Medical AI - 자동 퇴원요약 생성 시스템](https://github.com/YOUR_USERNAME/snubh-medical-ai)
+### 🏥 [MARS SNUBH Medical AI - 자동 퇴원요약 생성 시스템](https://github.com/YOUR_USERNAME/MARS)
 > **분당서울대병원 의료 AI 데이터톤 6위**
 
 **EXAONE 7.8B** 모델을 파인튜닝하여 퇴원요약문 자동 생성 시스템 개발.
