@@ -2,7 +2,7 @@
 
 **ML Engineer & AI Developer** | LLM 응용에 열정을 가지고 있습니다.
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FYOUR_USERNAME&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=방문자&edge_flat=false)](https://github.com/YOUR_USERNAME)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKR-LSB&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=방문자&edge_flat=false)](https://github.com/YOUR_USERNAME)
 
 ---
 
