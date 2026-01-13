@@ -69,7 +69,7 @@
 
 ---
 
-### ⚽ [K-League 승부 예측 모델](https://github.com/YOUR_USERNAME/kleague-predictor)
+### ⚽ [K-League 승부 예측 모델](https://github.com/KR-LSB/kleague-predictor)
 > 앙상블 기반 축구 경기 결과 예측 시스템
 
 XGBoost와 앙상블 기법을 활용한 K리그 경기 결과 예측 모델 개발.
