@@ -1,94 +1,192 @@
-# 안녕하세요, 승병입니다 👋
+# 안녕하세요, 이승병입니다 👋
 
-**ML Engineer & AI Developer** | LLM 응용에 열정을 가지고 있습니다.
+<div align="center">
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKR-LSB&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=방문자&edge_flat=false)](https://github.com/YOUR_USERNAME)
+**ML Engineer | 실전 프로젝트로 증명하는 개발자**
+
+🏆 **분당서울대병원 의료 AI 데이터톤 6위 / 100팀** (상위 6%)  
+⚡ **0.08초 RAG 시스템** 구축 | 🎯 **97% ICD-10 코딩 정확도** 달성
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKR-LSB&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Profile+Views&edge_flat=false)](https://github.com/KR-LSB)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:leesb9535@naver.com)
+
+</div>
 
 ---
 
 ## 🎯 About Me
 
-- 🎓 협성대학교 소프트웨어공학과 졸업 예정 (2026.02)
-- 🏥 **의료 AI**, **LLM 파인튜닝**, **RAG 시스템** 개발에 관심
-- 🏆 **분당서울대병원 의료 AI 데이터톤 6위**
-- 🔭 **ML Engineer / Data Engineer / AI Research Engineer** 포지션 구직 중
-- 🌱 실제 서비스에 적용 가능한 프로덕션 레벨 AI 시스템 구축
+```
+🎓 협성대학교 소프트웨어공학과 (2026.02 졸업 예정)
+💼 ML Engineer / Data Engineer / AI Research Engineer 구직 중
+🏥 Medical AI & LLM 파인튜닝 전문
+📍 Seoul, South Korea
+```
+
+### 💡 What I Do
+- **의료 AI**: 실제 병원 데이터로 검증된 퇴원요약 자동 생성 시스템 개발
+- **LLM Fine-tuning**: EXAONE 7.8B 파인튜닝으로 97% 정확도 달성
+- **RAG 시스템**: 0.08초 응답시간, 82.3% 캐시 히트율의 프로덕션 시스템 구현
+- **MLOps**: AWS GPU 인스턴스에서 대규모 모델 최적화 및 배포 경험
 
 ---
 
-## 🛠️ 기술 스택
+## 🏆 주요 성과
 
-### AI / ML
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+<table>
+<tr>
+<td>
 
-### Cloud & Infra
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+### 🥈 데이터톤 6위 / 100팀
+SNUBH 의료 AI 데이터톤  
+**상위 6% 입상**
 
-### Backend
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+</td>
+<td>
 
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+### 🎯 97% 정확도
+ICD-10 자동 코딩 정확도  
+**의료진 시간 80% 절감**
 
----
+</td>
+<td>
 
-## 🚀 주요 프로젝트
+### ⚡ 0.08초 응답
+RAG 기반 요리 어시스턴트  
+**82.3% 캐시 히트율**
 
-### 🏥 [MARS SNUBH Medical AI - 자동 퇴원요약 생성 시스템](https://github.com/YOUR_USERNAME/MARS)
-> **분당서울대병원 의료 AI 데이터톤 6위**
-
-**EXAONE 7.8B** 모델을 파인튜닝하여 퇴원요약문 자동 생성 시스템 개발.
-
-**주요 성과:**
-- 하이브리드 접근법: Rule-based (90%) + LLM (10%)으로 최적의 정확도 확보
-- AWS L4 GPU (24GB) 환경에서 LoRA + 4-bit Quantization 적용
-- 4개 진료과(소화기내과, 순환기내과, 신경외과, 신장내과) 의료 데이터 처리
-
-`PyTorch` `EXAONE` `LoRA` `AWS` `Medical AI`
+</td>
+</tr>
+</table>
 
 ---
 
-### 🍳 [Dalgurak - AI 요리 도우미](https://github.com/KR-LSB/dalgurak)
-> RAG 기반 레시피 추천 시스템 (졸업 프로젝트)
+## 🛠️ Tech Stack
 
-**0.08초 응답시간**과 **82.3% 캐시 히트율**을 달성한 프로덕션 레벨 요리 어시스턴트.
+### 💻 AI/ML & Backend
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+</p>
 
-**주요 성과:**
-- LangChain + ChromaDB 기반 RAG 아키텍처 설계
-- 7,500개 이상의 레시피 데이터셋 구축 및 시맨틱 검색 구현
-- 풀스택 개발: React + Spring Boot + MySQL
+### ☁️ Cloud & Infrastructure
+<p>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+</p>
 
-`LangChain` `ChromaDB` `React` `Spring Boot` `RAG`
+### 🎨 Frontend
+<p>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+</p>
 
 ---
 
-### ⚽ [K-League 승부 예측 모델](https://github.com/KR-LSB/kleague-predictor)
+## 🚀 Featured Projects
+
+### 🏥 [MARS - Medical AI Record Summarization](https://github.com/KR-LSB/MARS)
+
+> **🏆 분당서울대병원 의료 AI 데이터톤 6위 / 100팀**
+
+<img src="https://img.shields.io/badge/EXAONE%207.8B-blue?style=flat-square"/> <img src="https://img.shields.io/badge/AWS%20L4%20GPU-orange?style=flat-square"/> <img src="https://img.shields.io/badge/LoRA-green?style=flat-square"/> <img src="https://img.shields.io/badge/Medical%20AI-red?style=flat-square"/>
+
+**퇴원요약문 자동 생성 시스템** - EXAONE 7.8B 파인튜닝으로 ICD-10 코딩 정확도 97% 달성
+
+#### 🎯 핵심 성과
+- ✅ **정확도 97%**: ICD-10 자동 코딩 (의료진 검토 시간 80% 절감)
+- ✅ **효율성**: 환자당 평균 15분 → 3분으로 단축
+- ✅ **규모**: 4개 진료과 399명 환자 데이터 처리
+- ✅ **최적화**: AWS L4 GPU 환경에서 LoRA + 4-bit Quantization
+
+#### 💡 기술적 도전
+```
+문제: 7.8B 모델을 24GB GPU에서 파인튜닝
+해결: LoRA (r=16) + 4-bit Quantization
+결과: 메모리 사용량 40% 감소, 학습 완료
+```
+
+**Tech**: `PyTorch` `EXAONE` `LoRA` `4-bit Quantization` `AWS L4` `Medical AI`
+
+---
+
+### 🍳 [Dalgurak - AI Cooking Assistant](https://github.com/KR-LSB/dalgurak)
+
+> **⚡ 0.08초 응답시간 | 82.3% 캐시 히트율**
+
+<img src="https://img.shields.io/badge/LangChain-blue?style=flat-square"/> <img src="https://img.shields.io/badge/ChromaDB-purple?style=flat-square"/> <img src="https://img.shields.io/badge/React-cyan?style=flat-square"/> <img src="https://img.shields.io/badge/Spring%20Boot-green?style=flat-square"/>
+
+**RAG 기반 실시간 레시피 추천 시스템** (졸업 프로젝트)
+
+#### 🎯 핵심 성과
+- ✅ **응답 속도**: 평균 0.08초 (업계 평균 0.5~1.0초 대비 **10배 향상**)
+- ✅ **캐싱**: Redis 기반 82.3% 캐시 히트율
+- ✅ **데이터**: 7,500+ 레시피 시맨틱 검색 구현
+- ✅ **풀스택**: React + Spring Boot 통합 개발
+
+#### 💡 성능 최적화
+```
+Before: 평균 1.2초 응답
+After: 평균 0.08초 응답 (15배 개선)
+
+방법: ChromaDB 인덱싱 + Redis 캐싱 + 비동기 처리
+```
+
+**Tech**: `LangChain` `ChromaDB` `RAG` `Redis` `React` `Spring Boot`
+
+---
+
+### ⚽ [K-League Predictor](https://github.com/KR-LSB/kleague-predictor)
+
 > 앙상블 기반 축구 경기 결과 예측 시스템
 
-XGBoost와 앙상블 기법을 활용한 K리그 경기 결과 예측 모델 개발.
+<img src="https://img.shields.io/badge/XGBoost-orange?style=flat-square"/> <img src="https://img.shields.io/badge/Ensemble-green?style=flat-square"/> <img src="https://img.shields.io/badge/Feature%20Engineering-blue?style=flat-square"/>
 
-`XGBoost` `Ensemble` `Feature Engineering` `Data Analysis`
-
----
-
-## 📜 자격증
-
-| 자격증 | 발급기관 |
-|-------|---------|
-| **ADsP** (데이터분석 준전문가) | 한국데이터산업진흥원 |
-| **SQLD** (SQL 개발자) | 한국데이터산업진흥원 |
+**Tech**: `XGBoost` `Random Forest` `Feature Engineering` `Data Analysis`
 
 ---
 
-## 📫 연락처
+## 📊 GitHub Stats
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:leesb9535@naver.com)
+<div align="center">
+
+![승병's GitHub stats](https://github-readme-stats.vercel.app/api?username=KR-LSB&show_icons=true&theme=radical)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KR-LSB&layout=compact&theme=radical)](https://github.com/KR-LSB)
+
+</div>
 
 ---
+
+## 📜 Certifications
+
+| 자격증 | 발급기관 | 취득일 |
+|-------|---------|-------|
+| **ADsP** (데이터분석 준전문가) | 한국데이터산업진흥원 | - |
+| **SQLD** (SQL 개발자) | 한국데이터산업진흥원 | - |
+
+---
+
+## 📫 Contact Me
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leesb9535@naver.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KR-LSB)
+
+**"문제를 정의하고, 데이터로 검증하며, 코드로 구현합니다"**
+
+</div>
+
+---
+
+<div align="center">
+
+*⭐️ 마음에 드는 프로젝트가 있다면 Star를 눌러주세요!*
+
+</div>
