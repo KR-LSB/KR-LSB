@@ -174,7 +174,7 @@ After: 평균 0.08초 응답 (15배 개선)
 
 ---
 
-### ⚽ [K-League Predictor](https://github.com/KR-LSB/kleague-predictor)
+### ⚽ [작성 준비중][K-League Predictor](https://github.com/KR-LSB/kleague-predictor)
 
 > 앙상블 기반 축구 경기 결과 예측 시스템
 
