@@ -27,6 +27,7 @@
 - **의료 AI**: 실제 병원 데이터로 검증된 퇴원요약 자동 생성 시스템 개발
 - **LLM Fine-tuning**: EXAONE 7.8B 파인튜닝으로 97% 정확도 달성
 - **RAG 시스템**: 0.08초 응답시간, 82.3% 캐시 히트율의 프로덕션 시스템 구현
+- **AI Agent**: LangGraph 기반 Human-in-the-loop 안전한 에이전트 설계
 - **MLOps**: AWS GPU 인스턴스에서 대규모 모델 최적화 및 배포 경험
 
 ---
@@ -68,6 +69,7 @@ RAG 기반 요리 어시스턴트
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
   <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
@@ -84,6 +86,7 @@ RAG 기반 요리 어시스턴트
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
 </p>
 
 ---
@@ -112,6 +115,36 @@ RAG 기반 요리 어시스턴트
 ```
 
 **Tech**: `PyTorch` `EXAONE` `LoRA` `4-bit Quantization` `AWS L4` `Medical AI`
+
+---
+
+### 🏥 [Medical AI Agent - Human-in-the-loop EMR System](https://github.com/KR-LSB/medical-ai-agent)
+
+> **🛡️ LangGraph 기반 안전한 의료 데이터 접근 에이전트**
+
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/> <img src="https://img.shields.io/badge/Llama%203.1-blue?style=flat-square"/> <img src="https://img.shields.io/badge/Human--in--the--loop-red?style=flat-square"/> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square"/>
+
+**EMR 데이터 기반 진단 보조 시스템** - 민감한 환자 정보 접근 시 사람의 승인을 요구하는 Safety Pattern 구현
+
+#### 🎯 핵심 성과
+- ✅ **Safety First**: `interrupt_before` 패턴으로 민감 데이터 접근 전 승인 요청
+- ✅ **State Management**: LangGraph의 Checkpointer로 대화 상태 저장/복원
+- ✅ **Local LLM**: Ollama + Llama 3.1 8B (외부 API 의존 제거)
+- ✅ **Full-Stack Demo**: Streamlit UI + SQLite EMR 연동
+
+#### 💡 아키텍처
+```
+User Query → LLM Reasoning → Tool Call 결정
+                                   │
+                           🛑 INTERRUPT
+                                   │
+                   ┌───────────────┴───────────────┐
+                   │      Human Review UI          │
+                   │  [✅ Approve]  [❌ Reject]    │
+                   └───────────────────────────────┘
+```
+
+**Tech**: `LangGraph` `LangChain` `Llama 3.1` `Streamlit` `SQLite` `Human-in-the-loop`
 
 ---
 
