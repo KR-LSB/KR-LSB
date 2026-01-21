@@ -25,7 +25,7 @@
 
 ### 💡 What I Do
 - **의료 AI**: 실제 병원 데이터로 검증된 퇴원요약 자동 생성 시스템 개발
-- **LLM Fine-tuning**: EXAONE 7.8B 파인튜닝으로 97% 정확도 달성
+- **LLM Fine-tuning**: Llama-3.1-8B 파인튜닝으로 97% 정확도 달성
 - **RAG 시스템**: 0.08초 응답시간, 82.3% 캐시 히트율의 프로덕션 시스템 구현
 - **AI Agent**: LangGraph 기반 Human-in-the-loop 안전한 에이전트 설계
 - **MLOps**: AWS GPU 인스턴스에서 대규모 모델 최적화 및 배포 경험
