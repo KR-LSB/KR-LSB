@@ -120,7 +120,7 @@ RAG 기반 요리 어시스턴트
 결과: Fine-tuing 없이도 도메인 전문 지식을 반영한 고품질 퇴원 요약 자동화 및 안정적 파이프라인 구축
 ```
 
-**Tech**: `PyTorch` `EXAONE` `LoRA` `4-bit Quantization` `AWS L4` `Medical AI`
+**Tech**: `PyTorch` `EXAONE` `RAG` `AWS L4` `Medical AI`
 
 ---
 
