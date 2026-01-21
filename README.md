@@ -113,14 +113,11 @@ RAG 기반 요리 어시스턴트
 
 #### 💡 기술적 도전
 ```
-기술적 도전: 24GB VRAM 환경에서의 진료과 특화 경량 RAG 및 추론 최적화
+기술적 도전: 제한된 자원 하의 RAG최적화
 
-문제: > 7.8B 모델을 단일 24GB GPU에서 구동 시, 방대한 환자 의료 기록을 모두 문맥(Context)에 넣을 경우 OOM(Out of Memory)이 발생하며, 단순 요약 시 주요 검사 수치 누락이 빈번함.
-해결:
-  1. Keyword-Boosted RAG: TF-IDF와 진료과별(신경외과, 순환기내과 등) 핵심 키워드 가중치(DEPT_KEYWORD_BOOSTS)를 적용한 자체 검색 알고리즘 구현.
-  2. Context Compression: 환자 이벤트를 시계열로 구조화하고, _truncate_to_max 로직을 통해 GPU 메모리 한계 내에서 최대 효율을 내도록 입력 토큰 동적 제어.
-  3. Stable Inference: torch.inference_mode() 및 FP16/BF16 최적화를 적용하여 추론 속도 및 메모리 효율성 확보.
-결과: > 학습 없이도 진료과별 핵심 소견 반영률을 극대화하고, 단일 GPU에서 전체 환자 데이터에 대한 안정적인 퇴원 요약 생성 파이프라인 구축.
+문제: 24GB VRAM 단일 GPU 환경에서 긴 문맥의 의료 데이터를 처리할 때 발생하는 OOM 및 핵심 정보 누락
+해결: 진료과별 키워드 가중치 RAG 알고리즘 개발, 입력 토큰을 동적으로 조절
+결과: Fine-tuing 없이도 도메인 전문 지식을 반영한 고품질 퇴원 요약 자동화 및 안정적 파이프라인 구축
 ```
 
 **Tech**: `PyTorch` `EXAONE` `LoRA` `4-bit Quantization` `AWS L4` `Medical AI`
