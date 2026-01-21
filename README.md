@@ -40,7 +40,7 @@
 
 ### 🥈 데이터톤 6위 / 100팀
 SNUBH 의료 AI 데이터톤  
-**상위 6% 입상**
+**상위 6% **
 
 </td>
 <td>
@@ -99,7 +99,11 @@ RAG 기반 요리 어시스턴트
 
 <img src="https://img.shields.io/badge/EXAONE%207.8B-blue?style=flat-square"/> <img src="https://img.shields.io/badge/AWS%20L4%20GPU-orange?style=flat-square"/> <img src="https://img.shields.io/badge/LoRA-green?style=flat-square"/> <img src="https://img.shields.io/badge/Medical%20AI-red?style=flat-square"/>
 
-**퇴원요약문 자동 생성 시스템** - EXAONE 7.8B 파인튜닝으로 ICD-10 코딩 정확도 97% 달성
+#### 🚀 **Key Performance (예선 & 본선)**
+| 구분 | Task | Model | Performance |
+|:---:|:---:|:---:|:---|
+| **Diagnosis** | **ICD-10 코드 예측** | `Llama-3.1-8B` | • **F1 Score 0.919** (Baseline 0.624 대비 **47.2%↑**) <br> • **완전 불일치율 0%** 달성 |
+| **Generation** | **퇴원 요약지 생성** | `EXAONE-3.5-7.8B` | • **Lightweight RAG** 도입으로 할루시네이션 최소화 <br> • 평균 생성 시간 **33초/건** (입력 4k / 출력 1.5k 토큰) |
 
 #### 🎯 핵심 성과
 - ✅ **정확도 97%**: ICD-10 자동 코딩 (의료진 검토 시간 80% 절감)
