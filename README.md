@@ -99,7 +99,7 @@ RAG 기반 요리 어시스턴트
 
 <img src="https://img.shields.io/badge/EXAONE%207.8B-blue?style=flat-square"/> <img src="https://img.shields.io/badge/AWS%20L4%20GPU-orange?style=flat-square"/> <img src="https://img.shields.io/badge/LoRA-green?style=flat-square"/> <img src="https://img.shields.io/badge/Medical%20AI-red?style=flat-square"/>
 
-#### 🚀 **Key Performance (예선 & 본선)**
+#### 🚀 **핵심 성과 (예선 & 본선)**
 | 구분 | Task | Model | Performance |
 |:---:|:---:|:---:|:---|
 | **Diagnosis** | **ICD-10 코드 예측** | `Llama-3.1-8B` | • **F1 Score 0.919** (Baseline 0.624 대비 **47.2%↑**) <br> • **완전 불일치율 0%** 달성 |
