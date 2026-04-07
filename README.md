@@ -17,7 +17,7 @@
 ## 🎯 About Me
 
 ```
-🎓 협성대학교 소프트웨어공학과 (2026.02 졸업 예정)
+🎓 협성대학교 소프트웨어공학과
 💼 ML Engineer / Data Engineer / AI Research Engineer 구직 중
 🏥 Medical AI & LLM 파인튜닝 전문
 📍 Seoul, South Korea
